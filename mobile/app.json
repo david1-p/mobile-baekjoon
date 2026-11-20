@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "Pocket Judge",
+    "slug": "mobile-baekjoon",
+    "version": "0.1.0",
+    "orientation": "default",
+    "userInterfaceStyle": "light",
+    "platforms": ["android", "ios"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.pocketjudge.mobile"
+    },
+    "android": {
+      "package": "com.pocketjudge.mobile",
+      "softwareKeyboardLayoutMode": "resize"
+    },
+    "plugins": ["expo-sqlite"]
+  }
+}
