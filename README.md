@@ -90,6 +90,10 @@ npm run build
 
 네이티브 앱은 Android Studio/SDK를 설치한 PC에서 `npx expo run:android`, Xcode와 CocoaPods를 설치한 Mac에서 `npx expo run:ios`로 빌드하고 실행합니다. iPad 시뮬레이터를 고르려면 `npx expo run:ios --device`를 사용하세요. 백준 계정의 실제 제출은 수동 검증 항목입니다.
 
+### GitHub에서 네이티브 빌드 확인
+
+[Native build](https://github.com/david1-p/mobile-baekjoon/actions/workflows/native-build.yml)에서 Android ARM64 디버그 APK와 iOS 시뮬레이터 컴파일 결과를 확인할 수 있습니다. 실행 상세 화면의 **Artifacts → android-debug-arm64**에서 APK를 받습니다. 산출물 보관 기간은 5일이며 저장소 소유자는 **Run workflow**로 다시 빌드할 수 있습니다. 디버그 APK를 사용할 때는 Metro 개발 서버를 함께 실행하세요. 처음 실행하는 경우 위 Expo Go 절차가 가장 짧습니다.
+
 ## 라이선스
 
 프로젝트에서 작성한 코드는 [MIT License](LICENSE)로 공개합니다. 저작권자는 David입니다. 의존성은 각 패키지의 라이선스를 따릅니다. 이 저장소의 라이선스는 백준 문제·상표·사용자 제출물이나 solved.ac 데이터에 대한 권리를 부여하지 않습니다. 외부 서비스 이용에는 각 운영자의 정책이 적용됩니다. [백준](https://acmicpc.net/) · [solved.ac 개발자 약관](https://solved.ac/developer-terms)
